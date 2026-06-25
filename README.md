@@ -140,3 +140,54 @@ Locks the Go! button in place so it doesn't move.
 </details>
 
 ---
+
+<a href="https://www.neopets.com/games/game.phtml?game_id=315"><img src="https://images.neopets.com/games/pages/icons/ctp/c-315.png" width="300" /></a>
+
+<details>
+<summary><b>Mynci Beach Volleyball</b></summary>
+
+<br>
+
+**Opponent Cant Move**
+
+> <details>
+> <summary>Find</summary>
+>
+> ```
+> 96 04 00 04 01 08 0E 4E 96 06 00 08 2B 04 01 08 0E 4E 96 02 00 08 2B 4E 96 04 00 04 01 08 0E 4E 96 02 00 08 3F 4E 47 4F
+> ```
+>
+> </details>
+>
+> <details>
+> <summary>Replace</summary>
+>
+> ```
+> 96 04 00 04 01 08 0E 4E 96 06 00 08 2B 04 01 08 0E 4E 96 02 00 08 2B 4E 96 05 00 07 00 00 00 00 02 02 02 02 02 02 47 4F
+> ```
+>
+> </details>
+
+**Opponent Cant Jump**
+
+> <details>
+> <summary>Find</summary>
+>
+> ```
+> 4E 96 02 00 08 3F 4E 96 07 00 07 01 00 00 00 08 2C 1C 96 02 00 08 54 52 96 05 00 07 0F 00 00 00 67 12 12 9D 02 00 33 00 96 04 00 04 01 08 0E 4E 96 0F 00 08 0B 06 00 00 00 00 00 00 00 00 04 01 08 0E 4E 96 02 00 08 0C 4E 0B 4F 96 04 00 04 01 08 0E 4E 96 04 00 08 0A 05 01 4F
+> ```
+>
+> </details>
+>
+> <details>
+> <summary>Replace</summary>
+>
+> ```
+> 4E 96 02 00 08 3F 4E 96 07 00 07 01 00 00 00 08 2C 1C 96 02 00 08 54 52 96 05 00 07 0F 00 00 00 67 12 12 9D 02 00 33 00 96 04 00 04 01 08 0E 4E 96 0F 00 08 0B 06 00 00 00 00 00 00 00 00 04 01 08 0E 4E 96 02 00 08 0C 4E 0B 4F 96 04 00 04 01 08 0E 4E 96 04 00 08 0A 05 00 4F
+> ```
+>
+> </details>
+
+</details>
+
+---
