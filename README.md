@@ -4,7 +4,7 @@ Array of Bytes patches for Neopets Flash games. Apply both **Find** and **Replac
 
 ---
 
-<img src="https://images.neopets.com/games/pages/icons/ctp/c-204.png" width="300" />
+<a href="https://www.neopets.com/games/game.phtml?game_id=204"><img src="https://images.neopets.com/games/pages/icons/ctp/c-204.png" width="300" /></a>
 
 <details>
 <summary><b>Advert Attack</b></summary>
@@ -59,7 +59,7 @@ Locks the Go! button in place so it doesn't move.
 
 ---
 
-<img src="https://images.neopets.com/games/pages/icons/ctp/c-527.png" width="300" />
+<a href="https://www.neopets.com/games/game.phtml?game_id=527"><img src="https://images.neopets.com/games/pages/icons/ctp/c-527.png" width="300" /></a>
 
 <details>
 <summary><b>Attack of the Revenge</b></summary>
@@ -90,7 +90,7 @@ Locks the Go! button in place so it doesn't move.
 
 ---
 
-<img src="https://images.neopets.com/games/pages/icons/ctp/c-1026.png" width="300" />
+<a href="https://www.neopets.com/games/game.phtml?game_id=1026"><img src="https://images.neopets.com/games/pages/icons/ctp/c-1026.png" width="300" /></a>
 
 <details>
 <summary><b>Barf Boat</b></summary>
