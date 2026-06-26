@@ -221,15 +221,15 @@ Locks the Go! button in place so it doesn't move.
 
 ### Fixes
 
-**Force Assets to Images Host**
+**Force Live Server Defaults**
 
-Resolves game asset paths from `images.neopets.com` instead of the page/server path.
+Makes the server finder default to the live Neopets server group instead of offline/dev. This should let image/script/game asset URLs build normally from the existing code.
 
 > <details>
 > <summary>Find</summary>
 >
 > ```
-> D0 30 2C 01 D7 60 17 66 FE 13 66 AC 02 12 0E 00 00 60 17 66 FE 13 46 AF 02 00 2C D7 1C A0 D7 D3 2C D8 1C A0 D1 A0 2C D9 1C A0 D2 A0 2C CB 1A A0 48
+> D0 30 5E BF 05 27 68 BF 05 5E C1 05 60 C0 05 24 00 66 A8 1B 68 C1 05 47
 > ```
 >
 > </details>
@@ -238,117 +238,7 @@ Resolves game asset paths from `images.neopets.com` instead of the page/server p
 > <summary>Replace</summary>
 >
 > ```
-> D0 30 2C E8 05 2C CB 1A A0 2C D7 1C A0 D7 02 02 02 02 02 02 02 02 02 02 02 02 02 02 02 02 02 D3 2C D8 1C A0 D1 A0 2C D9 1C A0 D2 A0 2C CB 1A A0 48
-> ```
->
-> </details>
-
-**Force Script Server to Live WWW**
-
-Makes script/API URL generation use `www.neopets.com` instead of dev/default server paths.
-
-> <details>
-> <summary>Find</summary>
->
-> ```
-> D0 30 D0 66 AC 02 12 08 00 00 D0 66 9F 02 66 AE 02 48 D0 66 9F 02 66 C9 05 48
-> ```
->
-> </details>
->
-> <details>
-> <summary>Replace</summary>
->
-> ```
-> D0 30 2C EC 05 48 02 02 02 02 02 02 02 02 02 02 02 02 02 02 02 02 02 02 02 02
-> ```
->
-> </details>
-
-**Force Image Server Prefix**
-
-Makes image/preloader/world asset URLs use the correct images host prefix.
-
-> <details>
-> <summary>Find</summary>
->
-> ```
-> D0 30 D0 66 AC 02 12 09 00 00 D0 66 AD 02 2C CB 1A A0 48 2C 01 48
-> ```
->
-> </details>
->
-> <details>
-> <summary>Replace</summary>
->
-> ```
-> D0 30 2C E8 05 2C CB 1A A0 48 02 02 02 02 02 02 02 02 02 02 02 02
-> ```
->
-> </details>
-
-**Force Language EN**
-
-Forces the shell translation/language config to EN so translation loading is stable.
-
-> <details>
-> <summary>Find</summary>
->
-> ```
-> D0 66 C6 02 D0 66 C7 02 D0 66 CB 02 2C CF 01 66 A0 19 2A D5 61 A7 01 D1 08 01 61 A7 01
-> ```
->
-> </details>
->
-> <details>
-> <summary>Replace</summary>
->
-> ```
-> D0 66 C6 02 2C A7 14 61 A7 01 D0 66 C7 02 2C A7 14 61 A7 01 02 02 02 02 02 02 02 02 02
-> ```
->
-> </details>
-
-**Legacy Score Submit Preserve Args**
-
-Keeps the old score submit path using the real score/timing arguments instead of falling back incorrectly.
-
-> <details>
-> <summary>Find</summary>
->
-> ```
-> D0 66 BF 04 24 00 14 0B 00 00 D0 D2 D1 4F C3 04 02 10 3C 00 00 D0 66 BA 04
-> ```
->
-> </details>
->
-> <details>
-> <summary>Replace</summary>
->
-> ```
-> D0 66 BF 04 24 00 02 02 02 02 D0 D2 D1 4F C3 04 02 10 3C 00 00 D0 66 BA 04
-> ```
->
-> </details>
-
-**Force Startup FlashVars Path**
-
-Forces startup to read loader FlashVars instead of using offline fallback constants.
-
-> <details>
-> <summary>Find</summary>
->
-> ```
-> D0 30 55 00 80 06 D5 60 17 66 FE 13 66 AC 02 12 19 00 00 60 03 66 FE 13 D0 4F 9D 01 01 60 03 66 FE 13 66 9C 01 80 06 D5 10 48 00 00
-> ```
->
-> </details>
->
-> <details>
-> <summary>Replace</summary>
->
-> ```
-> D0 30 55 00 80 06 D5 60 17 66 FE 13 66 AC 02 02 02 02 02 60 03 66 FE 13 D0 4F 9D 01 01 60 03 66 FE 13 66 9C 01 80 06 D5 10 48 00 00
+> D0 30 5E BF 05 26 68 BF 05 5E C1 05 60 C0 05 24 01 66 A8 1B 68 C1 05 47
 > ```
 >
 > </details>
