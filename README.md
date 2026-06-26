@@ -177,9 +177,49 @@ Locks the Go! button in place so it doesn't move.
 
 <br>
 
-> **Note:** These patches fix the broken game so it loads and runs correctly on Neopets. They do not add cheats or extra functionality.
+### Cheats
 
-<br>
+**No Player Hit Damage**
+
+> <details>
+> <summary>Find</summary>
+>
+> ```
+> D0 30 D0 66 D8 02 66 9C 06 12 71 00 00
+> ```
+>
+> </details>
+>
+> <details>
+> <summary>Replace</summary>
+>
+> ```
+> D0 30 47 02 02 02 02 02 02 02 02 02 02
+> ```
+>
+> </details>
+
+**Unlimited Lives**
+
+> <details>
+> <summary>Find</summary>
+>
+> ```
+> D0 66 D8 02 2A D5 66 9F 06 C1 D6 D1 D2 61 9F 06 08 02 08 01
+> ```
+>
+> </details>
+>
+> <details>
+> <summary>Replace</summary>
+>
+> ```
+> D0 66 D8 02 2A D5 66 9F 06 02 D6 D1 D2 61 9F 06 08 02 08 01
+> ```
+>
+> </details>
+
+### Fixes
 
 **Force Assets to Images Host**
 
