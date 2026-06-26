@@ -2,6 +2,115 @@
 
 Array of Bytes patches for Neopets Flash games. Apply both **Find** and **Replace** for each patch using an AOB patcher on the game's SWF.
 
+<a href="https://www.neopets.com/games/game.phtml?game_id=987"><img src="https://images.neopets.com/games/pages/icons/ctp/c-987.png" width="300" /></a>
+
+<details>
+<summary><b>200m Peanut Dash</b></summary>
+
+<br>
+
+**Power Doesnt Decrease**
+
+> <details>
+> <summary>Find</summary>
+>
+> ```
+> 5E 9A 01 60 9A 01 2F 03 A2 68 9A 01
+> ```
+>
+> </details>
+>
+> <details>
+> <summary>Replace</summary>
+>
+> ```
+> 5E 9A 01 60 9A 01 68 9A 01 02 02 02
+> ```
+>
+> </details>
+
+**Walk Through Obstacles**
+
+> <details>
+> <summary>Find</summary>
+>
+> ```
+> 60 B4 03 60 A0 03 66 9F 03 46 BB 05 01 76
+> ```
+>
+> </details>
+>
+> <details>
+> <summary>Replace</summary>
+>
+> ```
+> 27 02 02 02 02 02 02 02 02 02 02 02 02 02
+> ```
+>
+> </details>
+
+**Obstacle Bonus Without Jump**
+
+> <details>
+> <summary>Find</summary>
+>
+> ```
+> 60 B3 03 46 B3 06 00 60 A5 03 AB 96
+> ```
+>
+> </details>
+>
+> <details>
+> <summary>Replace</summary>
+>
+> ```
+> 26 02 02 02 02 02 02 02 02 02 02 02
+> ```
+>
+> </details>
+
+**Always Get +10 Point Bonus**
+
+> <details>
+> <summary>Find</summary>
+>
+> ```
+> 60 A0 03 4F FD 03 00 60 B3 03 2C 90 02 4F B7 06 01
+> ```
+>
+> </details>
+>
+> <details>
+> <summary>Replace</summary>
+>
+> ```
+> 60 B3 03 24 02 4F C3 01 01 02 02 02 02 02 02 02 02
+> ```
+>
+> </details>
+
+**Always Catch the Peanut**
+
+> <details>
+> <summary>Find</summary>
+>
+> ```
+> 63 04 60 B4 01 12 8E 00 00
+> ```
+>
+> </details>
+>
+> <details>
+> <summary>Replace</summary>
+>
+> ```
+> 63 04 26 02 02 12 8E 00 00
+> ```
+>
+> </details>
+
+</details>
+
 ---
 
 <a href="https://www.neopets.com/games/game.phtml?game_id=204"><img src="https://images.neopets.com/games/pages/icons/ctp/c-204.png" width="300" /></a>
