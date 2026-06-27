@@ -278,6 +278,37 @@ Makes the server finder default to the live Neopets server group instead of offl
 
 ---
 
+<a href="https://www.neopets.com/games/game.phtml?game_id=685"><img src="https://images.neopets.com/games/pages/icons/ctp/c-685.png" width="300" /></a>
+
+<details>
+<summary><b>Attack of the Gummy Dice</b></summary>
+
+<br>
+
+**Any Placed Dice Counts as Combo**
+
+> <details>
+> <summary>Find</summary>
+>
+> ```
+> 96 04 00 04 04 08 94 4E 96 04 00 04 01 08 2B 4E 96 05 00 07 06 00 00 00 4E 96 04 00 04 01 08 2B 4E 96 09 00 06 00 00 00 00 00 00 00 00 4E 0D 48 12 12 9D 02 00 29 01
+> ```
+>
+> </details>
+>
+> <details>
+> <summary>Replace</summary>
+>
+> ```
+> 96 04 00 04 04 08 94 4E 96 04 00 04 01 08 2B 4E 96 05 00 07 06 00 00 00 4E 96 04 00 04 01 08 2B 4E 96 09 00 06 00 00 00 00 00 00 00 00 4E 0D 17 17 27 9D 02 00 29 01
+> ```
+>
+> </details>
+
+</details>
+
+---
+
 <a href="https://www.neopets.com/games/game.phtml?game_id=1026"><img src="https://images.neopets.com/games/pages/icons/ctp/c-1026.png" width="300" /></a>
 
 <details>
