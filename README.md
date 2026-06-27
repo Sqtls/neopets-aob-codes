@@ -305,6 +305,26 @@ Makes the server finder default to the live Neopets server group instead of offl
 >
 > </details>
 
+**Dropped Dice Always Destroys Columns**
+
+> <details>
+> <summary>Find</summary>
+>
+> ```
+> 96 04 00 04 01 08 33 4E 96 09 00 06 00 00 00 00 00 00 00 00 4E 96 02 00 08 A7 4E 96 02 00 08 01 1C 96 02 00 08 1B 4E 49 12 9D 02 00 30 00
+> ```
+>
+> </details>
+>
+> <details>
+> <summary>Replace</summary>
+>
+> ```
+> 96 04 00 04 01 08 33 4E 96 09 00 06 00 00 00 00 00 00 00 00 4E 96 02 00 08 A7 4E 96 02 00 08 01 1C 96 02 00 08 1B 4E 49 12 9D 02 00 00 00
+> ```
+>
+> </details>
+
 </details>
 
 ---
